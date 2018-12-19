@@ -17,13 +17,13 @@ rankedItems[i].innerHTML = parseInt(rankedItems[i].innerHTML) + n;
 
 //pulls out most deeply nested child element from grandnode
 
-function deepestChild(criteriaFn) {
+function deepestChild() {
   let current = document.querySelectorAll('div');//nodelist that catches all divs
   let next = [];
 
   while(current) {
     
-    if (criteriaFn(current)) {
+    if ()) {
       return current;
     }
     
