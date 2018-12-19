@@ -22,6 +22,7 @@ function deepestChild(criteriaFn) {
   let next = [];
 
   while(current) {
+    
     if (criterFn(current)) {
       return current;
     }
