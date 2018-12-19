@@ -23,7 +23,7 @@ function deepestChild() {
 
   while(current) {
     
-    if (current.innerHTML)) {
+    if (current.innerHTML=== 6) {
       return current;
     }
     
