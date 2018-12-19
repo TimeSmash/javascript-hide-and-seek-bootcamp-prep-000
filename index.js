@@ -30,7 +30,6 @@ function deepestChild(criteriaFn) {
     if (Array.isArray(current)) {
       for (var i = 0; i <current.length; i++){
       next.push(current[i]);
-        
       }
     }
     current = next.shift();
