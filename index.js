@@ -23,7 +23,7 @@ function deepestChild(criteriaFn) {
 
   while(current) {
     
-    if (criterFn(current)) {
+    if (criteriaFn(current)) {
       return current;
     }
     
@@ -32,7 +32,8 @@ function deepestChild(criteriaFn) {
       next.push(current[i]);
       }
     }
+    
     current = next.shift();
-    }
   }
 }
+
