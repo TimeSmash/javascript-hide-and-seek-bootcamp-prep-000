@@ -26,6 +26,8 @@ function deepestChild(criteriaFn) {
       return current
     }
     
-    if (Array.isArray)
+    if (Array.isArray(current)) {
+      for (var i = 0, i )
+    }
   }
 }
